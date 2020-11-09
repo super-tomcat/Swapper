@@ -11,8 +11,10 @@ Note that if you are operating on an odd number of lines then 1 line may not get
 
 
 ```
-;;
-;;
+;;; swapper.el --- Randomly swap all lines of text in an Emacs buffer or region
+;; Copyright (C) 2020 Neil Higgins
+;; Author: Neil Higgins
+;; 
 ;;
 (defun neils-swapper (&optional start end)
       "Randomly swap lines in the whole buffer or region"
