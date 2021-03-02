@@ -26,13 +26,6 @@ the top of your Emacs init.el file:
 
 ```(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp"))```
 
-You can now load any of the files in this folder, usually by adding something
-like:
-
-```(require 'fastway-mode)```
-
-to your Emacs init file and then set any customization you need.
-
 If you know how to you can also byte-compile the neils_swapper.el file, just
 open it in Emacs and go: Emacs-Lisp > Byte Compile This File, from the Emacs
 menu and its done.
@@ -40,10 +33,8 @@ menu and its done.
 Example Configuration....
 ============================================================================
 Add these lines to the end of your Emacs init.el file.
-These will make sure Swapper loads every time Emacs starts so its ready to use
-and will set the default keys that call Swapper to ```M-s s```
+This creates the key binding ```M-s s``` and sets it to Swapper.
 
 ```
-
 (global-set-key (kbd "M-s s") 'neils-swapper)
 ```
