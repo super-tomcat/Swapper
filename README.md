@@ -34,6 +34,7 @@ Example Configuration....
 ============================================================================
 Add these lines to the end of your Emacs init.el file.
 This creates the key binding ```M-s s``` and sets it to Swapper.
+You are now ready to use it.
 
 ```
 (global-set-key (kbd "M-s s") 'neils-swapper)
