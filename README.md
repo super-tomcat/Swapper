@@ -37,5 +37,6 @@ This creates the key binding ```M-s s``` and sets it to Swapper.
 You are now ready to use it.
 
 ```
+(require 'neils-swapper)
 (global-set-key (kbd "M-s s") 'neils-swapper)
 ```
